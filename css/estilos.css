@@ -25,7 +25,7 @@ body {
 	align-items: center;
 }
 
-.contenido-principal__imagen {
+.contenido-principal__video {
 	vertical-align: top;
 	margin-right: 20px;
 	width: 50%;
@@ -48,8 +48,9 @@ body {
 
 .contenido-principal__resumen {
 	font-family: 'Open Sans', sans-serif;
-	line-height: 18px;
+	line-height: 20px;
 	color:  #F2A20C;
+	text-align: center;
 }
 .contenido-principal__resumen .p{
 	font-family: 'Open Sans', sans-serif;
@@ -129,14 +130,8 @@ body {
 		width: 100%;
 	}
 }
-.contenido-principal__video {
-	vertical-align: top;
-	margin-right: 20px;
-	width: 50%;
-	max-width: 400px;
-	height: 700px;
-	margin-top: -30%;
-}
+
+
 .imagen{
 	margin-top: -1200px;
 }
