@@ -49,14 +49,14 @@ body {
 .contenido-principal__resumen {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 25px;
-	color:  #F2A20C;
+	color:  #f8f7f4;
 	text-align: center;
 	font-family: 'colobri';
 }
 .contenido-principal__resumen .p{
 	font-family: 'Open Sans', sans-serif;
 	line-height: 8px;
-	color:  #F2A20C;
+	color:  #f8f7f4;
 	font-family: 'colobri';
 }
 
@@ -83,15 +83,18 @@ body {
 
 .carousel__anterior:hover,
 .carousel__siguiente:hover {
-	opacity: 100%;
+	opacity: 10%;
 }
 
 .carousel__anterior {
 	left: -30px;
+	color: #fff;
+	
 }
 
 .carousel__siguiente {
 	right: -30px;
+	color: #fff;
 }
 
 .carousel__lista {
@@ -159,5 +162,27 @@ body {
 	padding-left: auto;
 	
   }
+.caja {
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #0c0c0c;
+	font-family: 'calibri';
+	font-size: 18px;
+	padding-left: auto;
+}
+.boton{
+	display: block;
+	text-align: center;
+	background-color: chartreuse;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f8f7f4;
+	border-radius: 20px;
+	font-size: 25px;
+}
 
 
