@@ -41,7 +41,7 @@ function enviar (){
     *BARRIO*%20
     ${Barrio.value}%20
     *DIRECCIÓN*%20
-    ${Dirección}%20
+    ${Dirección.value}%20
     *CÓDIGO*%20
     ${Código.value}%20
     *OBSERVACIONES*%20
