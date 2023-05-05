@@ -30,7 +30,8 @@ body {
 	vertical-align: top;
 	margin-right: 20px;
 	width: 100%;
-	max-width: 550px;
+	max-width: 1700px;
+	margin-top: 200px;
 
 }
 
@@ -40,11 +41,12 @@ body {
 
 .contenido-principal__titulo {
 	font-weight: normal;
-	font-size: 50px;
-	position: absolute;
-	margin-top: -700px;
-	text-align: left;
-	color: rgb(250, 247, 247);
+    font-size: 40px;
+    position: absolute;
+    margin-top: -700px;
+    text-align: center;
+    color: rgb(250, 247, 247);
+	
 
 }
 
