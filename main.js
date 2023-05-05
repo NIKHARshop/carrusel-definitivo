@@ -24,21 +24,7 @@ var mensaje;
 
 function enviar (){
     mensaje = `https://api.whatsapp.com/send?phone=573197660129&text=
-    
-    ${Nombre.value}*NOMBRE*
-    ${Celular.value}*CELULAR*
-    ${Email.value}*CORREO*
-    ${Departamento.value}*DEPARTAMENTO*
-    ${Ciudad.value}*CIUDAD*
-    ${Municipio.value}*MUNICIPIO*
-    ${Localidad.value}*LOCALIDAD*
-    ${Barrio.value}*BARRIO*
-    ${Dirección.value}*DIRECCIÓN*
-    ${Código.value}*CÓDIGO*
-    ${Observaciones.value}*OBSERVACIONES*
-    `;
-    
-    
+    *NOMBRE*${Nombre.value}*CELULAR*${Celular.value}*CORREO*${Email.value}*DEPARTAMENTO*${Departamento.value}*CIUDAD*${Ciudad.value}*MUNICIPIO*${Municipio.value}*LOCALIDAD*${Localidad.value}*BARRIO*${Barrio.value}*DIRECCIÓN*${Dirección.value}*CÓDIGO*${Código.value}*OBSERVACIONES*${Observaciones.value}`;
     btnEnviar.href= mensaje;
 
     if (nombre === '' || celular === '' || correo === '' ) {

@@ -125,18 +125,18 @@ El bebé siempre tiene curiosidad con todo, por lo que necesitamos protegerlos d
 <br>
 <br>
 <form action="" class="formulario">
-	<label for="" class="label"><strong>NOMBRE</strong></label>
-	<input id="Nombre" type="text" class="input">
+	<label for="" class="label"><strong>NOMBRE*</strong></label>
+	<input id="Nombre" type="text" class="input" required pattern="(a-zA-Z)">
 	<br>
-	<label for="" class="label"><strong>CELULAR</strong></label>
-	<input id="Celular" type="text" class="input">
+	<label for="" class="label"><strong>CELULAR*</strong></label>
+	<input id="Celular" type="text" class="input" required maxlength="12" pattern="(0-9)">
 	<br>
-	<label for="" class="label"><strong>CORREO</strong></label>
-    <input id="Email" type="email" class="input">
+	<label for="" class="label"><strong>CORREO*</strong></label>
+    <input id="Email" type="email" class="input" required>
 	<br>
 
-	<label for="" class="label"><strong>DEPARTAMENTO</strong></label>
-	<select id="Departamento" class="caja">
+	<label for="" class="label"><strong>DEPARTAMENTO*</strong></label>
+	<select id="Departamento" class="caja" required>
 	  <option value=""></option>
 	  <option value="Amazonas">Amazonas</option>
 	  <option value="Antioquia">Antioquia</option>
@@ -209,17 +209,17 @@ El bebé siempre tiene curiosidad con todo, por lo que necesitamos protegerlos d
 	<label for="" class="label"><strong>MUNICIPIO</strong></label>
 	<input id="Municipio" type="text" class="input">
 	<br>
-	<label for="" class="label"><strong>LOCALIDAD</strong></label>
-	<input id="Localidad" type="text" class="input">
+	<label for="" class="label"><strong>LOCALIDAD*</strong></label>
+	<input id="Localidad" type="text" class="input" required>
 	<br>
-	<label for="" class="label"><strong>BARRIO</strong></label>
-	<input id="Barrio" type="text" class="input">
+	<label for="" class="label"><strong>BARRIO*</strong></label>
+	<input id="Barrio" type="text" class="input" required>
 	<br>
-	<label for="" class="label"><strong>DIRECCIÓN</strong></label>
-	<input id="Dirección" type="text" class="input">
+	<label for="" class="label"><strong>DIRECCIÓN*</strong></label>
+	<input id="Dirección" type="text" class="input" required>
 	<br>
-	<label for="" class="label"><strong>CÓDIGO</strong></label>
-	<input id="Código" type="text" class="input">
+	<label for="" class="label"><strong>CÓDIGO DEL PRODUCTO*</strong></label>
+	<input id="Código" type="text" class="input" required>
 	<br>
 	<label for="" class="label"><strong>OBSERVACIONES</strong></label>
       <textarea id="Observaciones" type="element" class="caja"></textarea>
