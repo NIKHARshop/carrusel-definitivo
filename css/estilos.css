@@ -177,14 +177,14 @@ display: inline-flex;
 }
 .boton{
 	display: block;
-	text-align: center;
-	background-color: chartreuse;
+	background-color: brown;
 	padding: 10px 20px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #f8f7f4;
-	border-radius: 20px;
-	font-size: 25px;
+	border-radius: 10px;
+	font-size: 15px;
+	text-align: center;
 }
 .formulario {
 	width: 800px;
