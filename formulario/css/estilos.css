@@ -7,6 +7,7 @@ body {
   background: rgb(109, 108, 108);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  display: flex;
 }
 .formulario {
   width: 600px;
@@ -18,6 +19,7 @@ body {
   position: relative;
   background: rgb(17, 17, 17);
   box-shadow: 7px 13px 40px #F25D07;
+  
 }
 
 .imgLogo {
