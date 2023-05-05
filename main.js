@@ -24,27 +24,27 @@ var mensaje;
 
 function enviar (){
     mensaje = `https://api.whatsapp.com/send?phone=573197660129&text=
-    *NOMBRE*
-    ${Nombre.value}
-    *CELULAR*
-    ${Celular.value}
-    *CORREO*
-    ${Email.value}
-    *DEPARTAMENTO*
-    ${Departamento.value}
-    *CIUDAD*
-    ${Ciudad.value}
-    *MUNICIPIO*
-    ${Municipio.value}
-    *LOCALIDAD*
-    ${Localidad.value}
-    *BARRIO*
-    ${Barrio.value}
-    *DIRECCIÓN*
-    ${Dirección.value}
-    *CÓDIGO*
-    ${Código.value}
-    *OBSERVACIONES*
+    *NOMBRE*%0A
+    ${Nombre.value}*%0A
+    *CELULAR**%0A
+    ${Celular.value}*%0A
+    *CORREO**%0A
+    ${Email.value}*%0A
+    *DEPARTAMENTO**%0A
+    ${Departamento.value}*%0A
+    *CIUDAD**%0A
+    ${Ciudad.value}*%0A
+    *MUNICIPIO**%0A
+    ${Municipio.value}*%0A
+    *LOCALIDAD**%0A
+    ${Localidad.value}*%0A
+    *BARRIO**%0A
+    ${Barrio.value}*%0A
+    *DIRECCIÓN**%0A
+    ${Dirección.value}*%0A
+    *CÓDIGO**%0A
+    ${Código.value}*%0A
+    *OBSERVACIONES**%0A
     ${Observaciones.value}`;
     btnEnviar.href= mensaje;
 }
