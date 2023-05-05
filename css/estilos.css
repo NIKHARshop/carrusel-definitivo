@@ -1,15 +1,16 @@
 * {
 	box-sizing: border-box;
-	margin: 4px;
+	margin: 10px;
 }
 
 body {
 	background: #1D1D1F;
-	color: #fff;
+	color: #F25D07;
 	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
-display: inline-flex;
+    display: inline-flex;
 	align-items: center;
+	font-size: 25px;
 }
 
 .contenedor {
@@ -27,38 +28,41 @@ display: inline-flex;
 }
 
 .contenido-principal__video {
-	vertical-align: top;
-	margin-right: 2px;
-	width: 60%;
-	max-width: 600px;
+    padding: 20px;
+	margin-right: 20px;
+	width: 100%;
+	max-width: 1900px;
+	margin-top: 20%;
 }
 
 .contenido-principal__contenedor {
-	width: 50%;
+	width: 20%;
 }
 
 .contenido-principal__titulo {
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 50px;
 	position: absolute;
-	margin-top: -30px;
-	text-align: center;
-	color: brown;
+	margin-top: -700px;
+	text-align: left;
+	color: rgb(250, 247, 247);
 
 }
 
 .contenido-principal__resumen {
 	font-family: 'Open Sans', sans-serif;
-	line-height: 25px;
+	line-height: 35px;
 	color:  #f8f7f4;
 	text-align: center;
 	font-family: 'colobri';
+	font-size: 20px;
 }
 .contenido-principal__resumen .p{
 	font-family: 'Open Sans', sans-serif;
-	line-height: 8px;
+	line-height: 15px;
 	color:  #f8f7f4;
 	font-family: 'colobri';
+	font-size: 25px;
 }
 
 /* --- --- CAROUSEL --- --- */
@@ -109,7 +113,7 @@ display: inline-flex;
 .carousel__indicadores .glider-dot {
 	display: block;
 	width: 30px;
-	height: 4px;
+	height: 10px;
 	background: #fff;
 	opacity: .2;
 	border-radius: 0;
@@ -138,43 +142,6 @@ display: inline-flex;
 }
 
 
-.imagen{
-	margin-top: -1200px;
-}
-.label {
-  padding-left: 1px;
-  /*position: absolute;*/
-  /*margin-top: -78px;*/
-  /*z-index: -20;*/
-  color:  #F2A20C;
-  /*transition: all 0.2s;*/
-  margin: 0;
-  font-size: 14px;
-}
-.input {
-	width: 100%;
-	background: white;
-	padding: 20px;
-	border-radius: 4px;
-	margin-bottom: 5px;
-	border: 1px solid #0c0c0c;
-	font-family: 'calibri';
-	font-size: 10px;
-	padding-left: auto;
-	text-align: center;
-	
-  }
-.caja {
-	width: 100%;
-	background: white;
-	padding: 20px;
-	border-radius: 4px;
-	margin-bottom: 5px;
-	border: 1px solid #0c0c0c;
-	font-family: 'calibri';
-	font-size: 10px;
-	padding-left: auto;
-}
 .boton{
 	display: block;
 	background-color: brown;
@@ -183,19 +150,12 @@ display: inline-flex;
 	text-transform: uppercase;
 	color: #f8f7f4;
 	border-radius: 10px;
-	font-size: 15px;
+	font-size: 25px;
 	text-align: center;
 }
-.formulario {
-	width: 800px;
-	max-width: 800px;
-	margin: auto;
-	margin-top: 60px;
-	padding: 40px;
-	
-	position: center;
-	
-	
+.h3{
+	font-size: 50px;
 }
+
 
 
