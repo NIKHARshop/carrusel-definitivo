@@ -1,14 +1,13 @@
 * {
 	box-sizing: border-box;
-	margin: 10px;
-}
+	}
 
 body {
 	background: #1D1D1F;
 	color: #F25D07;
 	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
-    display: inline-flex;
+    display: flex;
 	align-items: center;
 	font-size: 25px;
 }
@@ -28,11 +27,11 @@ body {
 }
 
 .contenido-principal__video {
-    padding: 20px;
+	vertical-align: top;
 	margin-right: 20px;
 	width: 100%;
-	max-width: 1900px;
-	margin-top: 20%;
+	max-width: 550px;
+
 }
 
 .contenido-principal__contenedor {
@@ -150,7 +149,7 @@ body {
 	text-transform: uppercase;
 	color: #f8f7f4;
 	border-radius: 10px;
-	font-size: 25px;
+	font-size: px;
 	text-align: center;
 }
 .h3{
