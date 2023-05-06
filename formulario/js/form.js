@@ -14,6 +14,7 @@ document.querySelector('#submit').addEventListener('click', e => {
   const localidad = document.querySelector('#localidad').value;
   const barrio = document.querySelector('#barrio').value;
   const código = document.querySelector('#código').value;
+  const cantidad = document.querySelector('#cantidad').value;
   const observaciones = document.querySelector('#observaciones').value;
  
  
@@ -45,6 +46,8 @@ document.querySelector('#submit').addEventListener('click', e => {
           ${dirección}%0A
           *CÓDIGO*%0A
           ${código}%0A
+          *CANTIDAD*%0A
+          ${cantidad}%0A
           *OBSERVACIONES*%0A
           ${observaciones}`;
           
@@ -66,6 +69,14 @@ document.querySelector('#submit').addEventListener('click', e => {
   window.open(url);
   window.alert('TUS DATOS SE ENVIARON CON ÉXITO');
 
+  FormData.addEventListener("submit" , function(event){
+    event.preventDefault();
+    let transactionFormData = new FormData(form);
+    let transactionObj = convertFormDatoTransactionObj(transactionFormData)
+    saverTransactionObj(transactionObj);
+    insertRowInTransactiontable(transactionObj);
+    form.reset();
 
+  })
   
 });

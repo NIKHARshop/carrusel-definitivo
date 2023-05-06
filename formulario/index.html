@@ -127,18 +127,18 @@
        
       
       <label for="código" class="formulario__label"> <i class="fa-solid fa-tag" style="color:brown"></i>&nbsp;&nbsp;<strong>CÓDIGO DEL PRODUCTO*</strong></label>
-      <input id="código" type="text" class="formulario__input" required=""/>
-  
-  
-      
+      <input id="código" type="text" class="formulario__input2" required="" value="M52636" readonly/>
+
+      <label for="cantidad" class="formulario__label"> <i class="fa-solid fa-tag" style="color:brown"></i>&nbsp;&nbsp;<strong>CANTIDAD*</strong></label>
+      <input id="cantidad" type="number" class="formulario__input1" min="1" required/>
+      <br>
+      <br>
       <label for="observaciones" class="formulario__label"><i class="fa-solid fa-pen" style="color:brown">&nbsp;&nbsp;</i><strong>OBSERVACIONES</strong></label>
       <textarea class="formulario__input" name="textoArea" id="observaciones" cols="95" rows="4"></textarea>
       <div class="div_centrado borde fondo_deg">
   
-
-
       <div id="respuesta"></div>
-      <button id="submit" class="formulario__submit" onclick="return validar();"> ENVIAR</button>
+      <button id="submit" class="formulario__submit" onclick="return validar();" alert(TU PEDIDO HA SIDO ENVIADO)> ENVIAR</button>
 
       
     </form>
