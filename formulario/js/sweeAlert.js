@@ -7,14 +7,13 @@ swal.fire({
     padding:'3em',
     imageAlt: 'row',
     confirmButtonText:'CORRECTO',
-    grow: 'row',
+  
     buttons:'true'
 })
 Swal.bindClickHandler()
 
 Swal.mixin({
   toast: true,
-  title: 'GRACIAS POR PREFERIRNOS',
   title: 'GRACIAS POR PREFERIRNOS',
   text:'RECIBIRÁS UN MENSAJE POR WHATSAPP CONFIRMANDO TU PEDIDO',
   imageUrl:'https://i.ibb.co/LJZCL7B/leon-4-copia.png',
