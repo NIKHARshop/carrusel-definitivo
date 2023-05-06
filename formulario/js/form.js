@@ -67,7 +67,7 @@ document.querySelector('#submit').addEventListener('click', e => {
   resp.innerHTML = `TUS DATOS SE ENVIARON CON ÉXITO, ${nombre}`;
 
   window.open(url);
-  window.alert('TUS DATOS SE ENVIARON CON ÉXITO');
+ 
 
   FormData.addEventListener("submit" , function(event){
     event.preventDefault();

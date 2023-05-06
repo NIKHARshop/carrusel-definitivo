@@ -128,7 +128,8 @@
       
       <label for="código" class="formulario__label"> <i class="fa-solid fa-tag" style="color:brown"></i>&nbsp;&nbsp;<strong>CÓDIGO DEL PRODUCTO*</strong></label>
       <input id="código" type="text" class="formulario__input2" required="" value="M52636" readonly/>
-
+       <br>
+       <br>
       <label for="cantidad" class="formulario__label"> <i class="fa-solid fa-tag" style="color:brown"></i>&nbsp;&nbsp;<strong>CANTIDAD*</strong></label>
       <input id="cantidad" type="number" class="formulario__input1" min="1" required/>
       <br>
@@ -138,12 +139,14 @@
       <div class="div_centrado borde fondo_deg">
   
       <div id="respuesta"></div>
-      <button id="submit" class="formulario__submit" onclick="return validar();" alert(TU PEDIDO HA SIDO ENVIADO)> ENVIAR</button>
+      <button data-swal-toast-template="#my-template" id="submit" class="formulario__submit" onclick="return validar(); call()" alert(TU PEDIDO HA SIDO ENVIADO)> ENVIAR</button>
 
       
     </form>
     <script src="js/form.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweeAlert/dist/sweeAlert.mi.js"></script>
+    <script src="js/sweeAlert.js"></script>
   </body>
 </html>
 
